@@ -1,0 +1,2 @@
+This folder contains all of the homework assignments.
+All folders will be named with the date the assignments were given.

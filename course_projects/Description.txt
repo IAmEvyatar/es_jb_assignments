@@ -1,0 +1,2 @@
+This folder contains all project assignments for the course.
+all folders will be named with the project name and the date set for delivery of the project.
