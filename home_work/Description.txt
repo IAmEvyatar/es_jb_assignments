@@ -1,2 +1,4 @@
-This folder contains all of the homework assignments.
-All folders will be named with the date the assignments were given.
+All main assignment folders will be named with the date the assignments were given.
+all files within the main assignment folders will be separated 
+into folders named after the file types and sorted in ascending numeric names starting from 001 for example:
+es_jb_assignments-master/19_10_18/html/001.html
