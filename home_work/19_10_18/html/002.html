@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>19/10/18 Homework assignment - Forms</title>
+	<style>
+		
+		* {
+			margin:0;
+		}
+		header {
+			height:40vh;
+			background-color:#efefef;	
+		}
+		header h1, h2 {
+			line-height: 3;
+			color: rebeccapurple;
+			text-align: center;
+			font-size:260%;
+		}
+		article {
+			margin:20px;
+			font-size:20px;
+		}
+		form {
+			margin: 30px 0;
+		}
+	</style>
+</head>
+
+<body>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <header>
+    	<h1>Evyatar Silberschatz's homework assignment!</h1>
+    	<h2>This page will display some information about forms and their methods</h2>
+    </header>
+    <main>
+    <article>
+    <h3>Notes on POST</h3>
+    <ul>
+		<li>Appends form-data inside the body of the HTTP request (data is not shown is in URL)</li>
+    	<li>Has no size limitations</li>
+		<li>Form submissions with POST cannot be bookmarked</li>
+   		<li>Can be used with HTTPS for secure communications of personal details to server.</li>
+    </ul>
+    <br>
+    <p>Use the Devtools network tab to monitor the post request sent by submitting the form below.</p>
+    	<form action="" method="post">
+			<input type="text" name="firstname" placeholder="First Name">
+			<input type="text" name="lastname" placeholder="Last Name">
+			<input type="submit" value="submit">  
+		</form>
+    </article>
+    <article>
+    <h3>Notes on GET</h3>
+	<ul>
+	<li>Appends form-data into the URL in name/value pairs</li>
+	<li>The length of a URL is limited (about 3000 characters)</li>
+	<li>Never use GET to send sensitive data! (will be visible in the URL)</li>
+	<li>Useful for form submissions where a user want to bookmark the result</li>
+	<li>GET is better for non-secure data, like query strings in Google</li>
+	<li>A good use for GET would be search engine so users could copy the result url and 
+	share a search result with others.</li>
+	</ul>
+	<br>
+	<p>Fill in and submit this form to see the value of your answer appended to field name in URL</p>
+		<form action="" method="get">
+			<input type="text" name="firstname" placeholder="First Name">
+			<input type="text" name="lastname" placeholder="Last Name">
+			<input type="number" name="age" placeholder="Age">
+			<input type="submit" value="submit">  
+		</form>
+    </article>
+    </main>
+</body>
+</html>
+</body>
+</html>

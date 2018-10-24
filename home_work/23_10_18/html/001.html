@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>19/10/18 Homework assignment - Tables</title>
+	<style>
+		* {
+			margin: 0;
+		}
+		header {
+			height:40vh;
+			background-color:#efefef;			
+		}
+		header h1, h2 {
+			line-height: 3;
+			color: rebeccapurple;
+			text-align: center;
+			font-size:260%;
+		}
+		article {
+			margin-top:20px;
+			font-size:20px;
+		}
+		table {
+			width:100%;
+			margin:25px 0px;
+		}
+		th {
+			text-align: left;
+		}
+		table:nth-child(2) tr:nth-child(2n+0) {
+			background-color: aliceblue;
+		}
+		table:nth-child(2) th {
+			background-color:#ddd;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Evyatar Silberschatz's homework assignment!</h1>
+		<h2>This page will display the different properties of the table element.</h2>
+	</header>
+	<main>
+		<article>
+		 <h3>This is an example of a real world use for html tables: </h3>
+		 <p>We will use the example table to display names, ages, zodiac signs and gender of our team.</p>
+		 <table>
+		 	<thead>
+		 		<tr>
+		 			<th>Name</th>
+		 			<th>Age</th>
+		 			<th>Zodiac</th>
+		 			<th>Gender</th>
+		 		</tr>
+		 	</thead>
+		 	<tbody>
+		 		<tr>
+		 			<td>Dor</td>
+		 			<td>23</td>
+		 			<td>Capicorn</td>
+		 			<td>F</td>
+		 		</tr>
+		 		<tr>
+		 			<td>Avi</td>
+		 			<td>26</td>
+		 			<td>Sagittarius</td>
+		 			<td>M</td>
+		 		</tr>
+		 		<tr>
+		 			<td>Dan</td>
+		 			<td>31</td>
+		 			<td>Leo</td>
+		 			<td>M</td>
+		 		</tr>
+		 		<tr>
+		 			<td>Michal</td>
+		 			<td>27</td>
+		 			<td>Aries</td>
+		 			<td>F</td>
+		 		</tr>
+		 	</tbody>
+		 </table>
+		 <p>This table has no atributes or styling, in the next examples we will explore the styling options for the <code>&lt;table&gt;</code> tag.</p>
+		</article>
+		<article>
+			<h3>In this example we will show a table displaying student scores.</h3>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Student Name</th>
+						<th colspan="2" style="text-align: center">Math / Algebra</th>
+						<th>English</th>
+						<th>Science</th>
+						<th>Literature</th>
+						<th>Arts</th>
+						<th>Physical Education</th>
+						<th>Social Studies</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>John Stafford</td>
+					<td>A+</td>
+					<td>B+</td>
+					<td>B-</td>
+					<td>B</td>
+					<td>C+</td>
+					<td>B-</td>
+					<td>C</td>
+					<td>A+</td>
+				</tr>
+				<tr>
+					<td>Mike Greendale</td>
+					<td>F</td>
+					<td>C-</td>
+					<td>D+</td>
+					<td>A+</td>
+					<td>B+</td>
+					<td>C-</td>
+					<td>C</td>
+					<td>A</td>
+				</tr>
+				<tr>
+					<td>Shirley Harris</td>
+					<td>C</td>
+					<td>B</td>
+					<td>B+</td>
+					<td>C+</td>
+					<td>A</td>
+					<td>A-</td>
+					<td>C</td>
+					<td>B+</td>
+				</tr>
+				<tr>
+					<td>Aaron Simmons</td>
+					<td>F</td>
+					<td>F</td>
+					<td>B</td>
+					<td>C-</td>
+					<td>B-</td>
+					<td>C</td>
+					<td>F</td>
+					<td>B-</td>
+				</tr>
+				<tr>
+					<td>Ben Stone</td>
+					<td>B-</td>
+					<td>A</td>
+					<td>C+</td>
+					<td>B</td>
+					<td>A</td>
+					<td>B</td>
+					<td>A+</td>
+					<td>A+</td>
+				</tr>
+				<tr>
+					<td>Alex Cotton</td>
+					<td>C-</td>
+					<td>C</td>
+					<td>B+</td>
+					<td>A</td>
+					<td>A</td>
+					<td>C</td>
+					<td>F</td>
+					<td>A+</td>
+				</tr>
+			</tbody>
+			</table>
+			<p>You can notice how this table has borders, also we have styled the width of the rows.</p>
+		</article>
+	</main>
+</body>
+</html>
