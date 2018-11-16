@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>008</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../css/008.css">
+</head>
+<body>
+	<header>
+		<h1>Bootstrap responsiveness</h1>
+		<p> use bootstrap grid to create a 4 row grid
+			for large screens, it would display a parallelogram
+			for medium screens, it would display a "ח"
+			for small screens, it would display an equilateral triangle
+			(use colors in order to create these shapes) <br>
+			<a href="../index.html">Return to main page</a>
+		</p>
+	</header>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-sm-1 col-md-2 col-lg-3 offset-lg-3 bg-primary border border-white"></div>
+			<div class="col-sm-1 col-md-5 col-lg-3 bg-primary border border-white"></div>
+			<div class="col-sm-1 col-md-2 col-lg-3 bg-primary border border-white"></div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-sm-2 col-md-2 col-lg-3 offset-lg-2 bg-primary border border-white"></div>
+			<div class="col-sm-2 col-md-5 col-lg-3"></div>
+			<div class="col-sm-2 col-lg-3 bg-primary border border-white"></div>
+		</div>		
+		<div class="row justify-content-center">
+			<div class="col-sm-3 col-md-2 col-lg-3 offset-lg-1 bg-primary border border-white"></div>
+			<div class="col-sm-3 col-md-5 col-lg-3"></div>
+			<div class="col-sm-3 col-md-2 col-lg-3 bg-primary border border-white"></div>
+		</div>		
+		<div class="row justify-content-center">
+			<div class="col-sm-4 col-md-2 col-lg-3 bg-primary border border-white"></div>
+			<div class="col-sm-4 col-md-5 col-lg-3"></div>
+			<div class="col-sm-4 col-md-2 col-lg-3 bg-primary border border-white"></div>
+		</div>
+	</div>
+</html>

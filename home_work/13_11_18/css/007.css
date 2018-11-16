@@ -1,0 +1,39 @@
+body {
+	padding-bottom:30px;
+}
+header {
+	border-bottom: 3px solid rebeccapurple;
+	padding-bottom:10px;
+	margin-bottom:50px;
+	max-width:75%;
+	margin:0 auto 50px;
+}
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+img {
+	display:block;
+	margin: 0 auto;
+}
+
+.bottom-row, bottome-row div {
+	height:100px;
+}
+.top-row>div {
+	height:500px;
+}
+.top-nest-row {
+	height:150px;
+}
+.bottom-nest-row {
+	height:400px;
+}
+.bottom-row {
+	height:200px;
+}
