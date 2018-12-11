@@ -5,8 +5,8 @@
 	end = Number(prompt('Ending number (optional)'));
 function mySlice(a, b, c) {
 	a = eval(a);
-	if(!c | c > a.length) {
-		c = a.length
+	if(!c || c > a.length) {
+		c = a.length;
 	}
 	var newArr = [];
 	for(i = 0, b -= 1; b < c; b++, i++){
