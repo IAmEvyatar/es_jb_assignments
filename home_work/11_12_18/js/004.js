@@ -1,11 +1,7 @@
 var game = {
 	dice: 0,
 	play:function() {
-		var roll = 0
-		for(i = 0; i < 2; i++) {
-			roll = Math.floor(Math.random() * 6) + 1;
-			game.dice += roll;
-		}
+		game.dice += (Math.floor(Math.random() * 6) + 1)*2;
 		return game.didPlayerWin()
 	},
 	didPlayerWin:function() {
